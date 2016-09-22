@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); // I don't know what happened
 
         Button addNewButton = (Button) findViewById(R.id.new_todo_item_button);
         final EditText newToDoEditText = (EditText) findViewById(R.id.new_todo_item_edittext);
